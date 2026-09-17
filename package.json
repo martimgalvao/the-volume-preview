@@ -1,7 +1,7 @@
 {
   "name": "the-volume-preview",
   "productName": "The Volume Preview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Desktop preview of The Volume: the 3D viewer with an NDI input for Resolume and other players",
   "author": {
     "name": "Martim S. Galv\u00e3o",
