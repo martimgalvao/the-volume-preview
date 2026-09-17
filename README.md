@@ -17,7 +17,9 @@ Grab the latest build from [Releases](https://github.com/martimgalvao/the-volume
 
 The builds are not notarized or Authenticode-signed yet:
 
-- **Mac**: right-click the app, Open, Open again the first time. If macOS calls it damaged:
+- **Mac**: the first launch says Apple could not verify the app. Close that, open System Settings →
+  Privacy & Security, scroll down and click **Open Anyway** next to The Volume Preview. Once per
+  machine. Or clear the download flag in Terminal:
   `xattr -dr com.apple.quarantine "/Applications/The Volume Preview.app"`.
 - **Windows**: SmartScreen says "Windows protected your PC"; More info, Run anyway.
 - **Linux**: NDI discovery needs `avahi-daemon` running.
